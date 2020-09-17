@@ -1,0 +1,199 @@
+Questions and response options for a Kaggle community survey on data work practices. 
+
+Intro, privacy notice, researcher contact, and consent note are omitted for publication.
+
+
+[SC = single choice, MC = multiple choice, L = Likert Scale, R = Rank]
+
+A. Demographics and experience
+
+1. What is your age range? [SC]
+   1. <18 / 18-29 / 30-39 / 40-49 / 50-59 / 60+
+
+2. What best describes your current job role? [SC]
+   1. Business Analyst
+   2. Data Analyst
+   3. Data Engineer
+   4. Data Scientist
+   5. DBA / Database Engineer
+   6. Educator
+   7. Product / Project Manager
+   8. Researcher 
+   9. Software Engineer
+   10. Statistician
+   11. Student
+   12. Employed in a non technology related role
+   13. Not Employed
+   14. Retired
+   15. Other, please specify...
+
+3. In which country do you currently reside? [SC]
+   1. [dropdown of countries]
+
+4. What is the highest degree or level of school you have completed? [SC]
+   1. Less than high school degree
+   2. High school degree or equivalent
+   3. Professional degree (for a specific profession)
+   4. Some college/university study without earning a bachelor’s degree
+   5. Bachelor’s degree
+   6. Master’s degree
+   7. Doctoral degree
+   8. Other: (please describe)
+
+5. Do you perform data analysis as part of your daily work or in your free time? [SC]
+   1. For work 
+   2. Outside of work
+   3. Both 
+   4. Other, please describe [free text]
+   5. None
+
+6. How long have you been practicing data analysis? [SC]
+   1. Less than a year / 1-3 years / 3-5 years / More than 5 years
+
+7. When was the last time you used datasets on Kaggle (e.g. downloaded / used a dataset, or uploaded your own dataset [SC]
+   1. Less than a year / 1-3 years / 3-5 years / More than 5 years/ Have not used Kaggle   datasets before (->branch to terminate survey)  
+
+
+B. Working with data
+
+8. What are some of your motivations or reasons for working with Kaggle datasets? [MC]
+   1. Learning new skills or methods
+   2. Taking part in competitions
+   3. Engaging with peers
+   4. Adding to my CV / demonstrate my skills
+   5. Solving open (research) problems
+   6. For fun
+   7. Other, please describe (free text)
+
+9. What are the three most frequent things you do when going to Kaggle? Please select up to 3 choices that apply. [MC]
+   1. Browse / find datasets
+   2. Browse / find kernels
+   3. Use datasets
+   4. Share code I worked on with the community
+   5. Publish a dataset
+   6. Begin or continue a data science project
+   7. Participate in a competition or challenge
+   8. Participate in community efforts to solve a problem (e.g. COVID-19 datasets)
+   9. Checking in to see what's new
+   10. Take a course on Kaggle's Learn platform
+   11. Other, please describe [free text]
+
+10. How do you find and choose datasets to work with? [MC]
+   1. Using search engines (e.g. Google search)
+   2. Browsing Kaggle
+   3. Recommendations from other people
+   4. Other, please describe [free text]
+
+11. When you choose a dataset to work with, how important are the following characteristics? Please select the choices according to their importance to you. [R]
+   1. Format or data type 
+   2. Who posted it (person / institution)
+   3. Column headers or variables 
+   4. Description of the data
+   5. Geographic location of data 
+   6. Timeframe of the data
+   7. Quality of the data
+   8. Size of the dataset
+   9. Obvious patterns or trends in the data
+   10. Amount of activity around the dataset 
+   11. Usability rating
+   12. Other, please describe [free text]
+
+12. How important are the following features provided by Kaggle for you to choose a dataset? Please select the choices according to their importance to you. [R]
+   1. Tags
+   2. Overview description
+   3. File description
+   4. Column description
+   5. License 
+   6. File format
+   7. Provenance / origin
+   8. Update frequency specified
+   9. Has a public kernel
+
+13. How do you know a dataset is good quality? Please drag and drop, and rank these in order of importance. [R]
+   1. Completeness (not many missing values)
+   2. Timeliness (is the data recent?)
+   3. Believability (is the data believable?)
+   4. Understandability (is the data understandable?)
+   5. Consistency (is the data consistent, e.g. formatting?)
+   6. Provenance / origin (who published the data?)
+   7. Other [free text]
+
+14. When you choose a dataset, how important are the following characteristics? Please select the choices according to their importance to you. [R]
+   1. Number of ongoing discussions (topics and comments)
+   2. Number dataset downloads
+   3. Number of votes a dataset has
+   4. Number of contributors
+   5. Status of top contributors
+   6. Number of Kernels using the dataset
+   7. Clear tasks or questions described together with the dataset
+   8. Other, please describe [free text]
+
+15. Do you contribute to Kaggle by publishing data or code? [L]
+   1. Never, Rarely, Sometimes, Often, A Lot 
+
+16. Do you contribute to Kaggle’s discussion forums? [L]
+   1. Never, Rarely, Sometimes, Often, A Lot 
+
+17. Do you download a dataset before deciding to work with it?  [L]
+   1. Never, Rarely, Sometimes, Often, A Lot 
+
+18. When I have used a Kaggle dataset I publish my code back on Kaggle [SC]
+   1. Yes 
+   2. Sometimes 
+   3. No
+   4. Not applicable
+18.1 If yes or sometimes: What motivates you to post your code back on Kaggle? [free text]
+18.1 If no: Do you share the code elsewhere, or with others? Please specify: [free text]
+
+19. When I make changes to a Kaggle dataset I publish the new dataset version back on Kaggle? [SC]
+   1. Yes 
+   2. Sometimes 
+   3. No
+   4. Not applicable
+
+C. Competitions
+
+20. Have you participated in a competition on Kaggle in the last 2 years?[SC]
+   1. Yes.  
+   2. No [survey termination]
+
+21. How many people were in your team (including yourself)?[SC]
+   1. Just me / 2 / 3 / 4 / 5 / more than 5
+
+22. What are typical roles of team members during a competition? [MC]
+   1. Data Exploration
+   2. Data Visualization
+   3. Data Modelling
+   4. Data Wrangling
+   5. Data Cleaning
+   6. Project management (organizing)
+   7. Other, please describe [free text]
+
+23. Did you know any of the people in your team before? [SC]
+   1. No
+   2. Yes, all of them
+   3. Yes, some of them
+   4. I was a 1 person team
+If yes, did you know them in person or online? 
+In person / Online / Both
+
+24. How do you communicate with your teammates during a competition? [MC]
+   1. On Kaggle
+   2. Email
+   3. Messaging app (eg. WhatsApp / WeChat)
+   4. Video conferencing (e.g. Zoom, Hangouts, etc)
+   5. In a notebook
+   6. Other, please describe [free text]
+
+25. How did you make decisions during a competition? [SC] 
+   1. Alone
+   2. Mostly alone
+   3. Mostly as a team
+   4. As a team
+
+26. Why do you take part in competitions on Kaggle? 
+   1. [free text]
+
+
+Thank you very much for taking the time to complete this survey!
+If there is anything you would like to comment on please do it here: [free text]
